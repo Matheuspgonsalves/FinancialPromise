@@ -1,0 +1,1 @@
+#### Este é um projeto a ser desenvolvido nos próximos meses. A ideia é de um sistema financeiro para gerir as finanças de pessoas fisicas.
