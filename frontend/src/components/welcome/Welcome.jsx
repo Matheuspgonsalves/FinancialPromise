@@ -8,7 +8,6 @@ function Welcome () {
     const { t } = useTranslation(); //Using translations pt-br & en-us
 
     //Using mediaQuery for detect breakpoints
-    
     const isTablet = useMediaQuery(breakpoints.tablet);
     const isMobile = useMediaQuery(breakpoints.mobile);
 
