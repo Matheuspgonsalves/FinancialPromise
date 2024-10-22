@@ -37,7 +37,7 @@ function Welcome () {
                     </p>
 
                     <div className="start">
-                       <button>Comece agora</button>
+                       <button>{t('startBTN')}</button>
                     </div>
                 </div>
             </section>

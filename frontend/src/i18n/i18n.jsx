@@ -8,7 +8,8 @@ const resources = {
             homeTitle: "Take control of your expenses",
             homeText: "The planning you never asked for, but always needed. Manage your finances effortlessly.",
             signUp: "Sign Up",
-            login: "Login"
+            login: "Login",
+            startBTN: "Start Now"
         },
     },
 
@@ -17,7 +18,8 @@ const resources = {
             homeTitle: "Tenha o controle dos seus gastos",
             homeText: "O planejamento que você nunca pediu, mas sempre precisou. Controle seus gastos financeiros sem esforço.",
             signUp: "Cadastrar-se",
-            login: "Entrar"
+            login: "Entrar",
+            startBTN: "Comece agora"
         },
     },
 };

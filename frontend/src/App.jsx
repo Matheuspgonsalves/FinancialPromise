@@ -1,15 +1,10 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import Welcome from './components/welcome/Welcome';
-
-
+import Home from './pages/Home';
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Welcome />
+      <Home />
     </>
   )
 }
