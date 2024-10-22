@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import './Navbar.css'
 
 function Navbar() {
+    const { t } = useTranslation();
+
     return (
         <nav id="nav">
             <div id="logo">
@@ -8,8 +11,8 @@ function Navbar() {
             </div>
             <div id="register-login">
                 <ul>
-                    <li><button className="login">Login</button></li>
-                    <li><button className="register">Sign Up</button></li>
+                    <li><button className="login">{t('login')}</button></li>
+                    <li><button className="register">{t('signUp')}</button></li>
                 </ul>
             </div>
         </nav>
