@@ -1,19 +1,19 @@
-export function Navbar() {
+import './Navbar.css'
+
+function Navbar() {
     return (
-        <nav>
-            <div>
-                <h1>Financial Promise</h1>
+        <nav id="nav">
+            <div id="logo">
+                <h1><a href="">Financial Promise</a></h1>
             </div>
-            <div>
+            <div id="register-login">
                 <ul>
-                    <li>Primeiro</li>
-                    <li>Segundo</li>
-                    <li>Terceiro</li>
+                    <li><button className="login">Login</button></li>
+                    <li><button className="register">Sign Up</button></li>
                 </ul>
-            </div>
-            <div>
-                
             </div>
         </nav>
     )
 }
+
+export default Navbar;
