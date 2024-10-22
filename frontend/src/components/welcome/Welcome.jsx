@@ -17,6 +17,10 @@ function Welcome () {
                     <p>
                         {t('homeText')}
                     </p>
+
+                    <div className="start">
+                       <button>Comece agora</button>
+                    </div>
                 </div>
             </section>
         </>

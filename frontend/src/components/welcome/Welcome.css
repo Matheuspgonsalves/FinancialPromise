@@ -26,11 +26,11 @@
 }
 
 .welcome h1 {
-    width: 50%;
-    font-size: 42px;
+    width: 60%;
+    font-size: 2.870rem;
     font-family: 'Montserrat';
     font-weight: 500;
-    text-align: justify;
+    
 }
 
 .welcome p {
@@ -40,4 +40,19 @@
 
 .bg img {
     width: 70%;
+}
+
+.start button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    background-color: #15803d;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: white;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+.start button:hover {
+    background-color: #105a2b;
 }
