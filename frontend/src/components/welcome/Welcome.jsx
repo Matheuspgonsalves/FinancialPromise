@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from 'react-responsive';
 import { breakpoints } from "../../styles/breakpoints";
+import { useNavigate } from "react-router-dom";
 import moneyIncomeSVG from '../../assets/money-income-animate.svg';
 import './Welcome.css';
 
 function Welcome () {
     const { t } = useTranslation(); //Using translations pt-br & en-us
+    const navigate = useNavigate(); //Initializing useNavigate
 
     //Using mediaQuery for detect breakpoints
     const isTablet = useMediaQuery(breakpoints.tablet);
@@ -23,6 +25,11 @@ function Welcome () {
         textSize = '1rem';
     }
 
+    //Function for navigate to login
+    const handleLoginClick = () => {
+        navigate('/login');
+    }
+
     return(
         <>
             <section id="home">
@@ -37,7 +44,7 @@ function Welcome () {
                     </p>
 
                     <div className="start">
-                       <button>{t('startBTN')}</button>
+                       <button onClick={handleLoginClick} >{t('startBTN')}</button>
                     </div>
                 </div>
             </section>

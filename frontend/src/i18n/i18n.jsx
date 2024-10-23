@@ -9,7 +9,10 @@ const resources = {
             homeText: "The planning you never asked for, but always needed. Manage your finances effortlessly.",
             signUp: "Sign Up",
             login: "Login",
-            startBTN: "Start Now"
+            startBTN: "Start Now",
+            formTitle: "Hello, friend",
+            formText: "Enter your details to continue your experience",
+            entryFormText: "Sign In",
         },
     },
 
@@ -19,7 +22,10 @@ const resources = {
             homeText: "O planejamento que você nunca pediu, mas sempre precisou. Controle seus gastos financeiros sem esforço.",
             signUp: "Cadastrar-se",
             login: "Entrar",
-            startBTN: "Comece agora"
+            startBTN: "Comece agora",
+            formTitle: "Bem vindo novamente",
+            formText: "Entre com seus dados para continuar a sua experiência",
+            entryFormText: "Entrar",
         },
     },
 };
