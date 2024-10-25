@@ -23,9 +23,9 @@ const resources = {
             signUp: "Cadastrar-se",
             login: "Entrar",
             startBTN: "Comece agora",
-            formTitle: "Bem vindo novamente",
-            formText: "Entre com seus dados para continuar a sua experiência",
-            entryFormText: "Entrar",
+            formTitle: "Bem vindo!",
+            formText: "Entre com seus dados para continuar conectado com a gente.",
+            entryFormText: "Faça Login",
         },
     },
 };
