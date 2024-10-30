@@ -32,6 +32,11 @@ function Navbar() {
         navigate('/login');
     }
 
+     //Function for navigate to login
+     const handleCadastroClick = () => {
+        navigate('/cadastro');
+    }
+
     return (
         <nav id="nav">
             <div id="logo">
@@ -40,7 +45,7 @@ function Navbar() {
             <div id="register-login">
                 <ul>
                     <li><button onClick={handleLoginClick} className="login" style={{fontSize: loginSize}}>{t('login')}</button></li>
-                    <li><button className="register" style={{fontSize: sigUpSize}}>{t('signUp')}</button></li>
+                    <li><button onClick={handleCadastroClick} className="register" style={{fontSize: sigUpSize}}>{t('signUp')}</button></li>
                 </ul>
             </div>
         </nav>

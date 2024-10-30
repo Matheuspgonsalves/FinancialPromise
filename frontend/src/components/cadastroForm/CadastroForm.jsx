@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import './LoginForm.css'
+import './CadastroForm.css'
 
-function LoginForm() {
+function CadastroForm() {
     const { t } = useTranslation();
     const navigate = useNavigate();
 
@@ -23,7 +23,7 @@ function LoginForm() {
                     </div>
                 </div>
                 <div className="login-form">
-                    <h2>{t('entryFormText')}</h2>
+                    <h2>{t('entryCadText')}</h2>
                     <div className="formData">
                         <form action="">
                             <div className="data-section">
@@ -47,4 +47,4 @@ function LoginForm() {
     )
 }
 
-export default LoginForm;
+export default CadastroForm;
